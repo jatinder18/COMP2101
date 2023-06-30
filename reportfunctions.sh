@@ -81,3 +81,4 @@ function errormessage {
     echo "[$timestamp] ERROR: $message" >> /var/log/systeminfo.log
     echo "Error: $message" >&2
 }
+
